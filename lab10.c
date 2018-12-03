@@ -386,20 +386,25 @@ int get_range(int low, int high, bubble_response ret[ID_RANGE_MAX_RESULTS], full
       high_index = 0;
   bubble_response current = data[0];
 
-  for(i = 0; i < rows; i++){
-    if(data[i].id >= low) { 
-      low_index = i; 
+  // find the index of the first element with an id >= low
+  for(low_index = 0; low_index < rows; low_index++){
+    if(data[low_index].id >= low) { 
       break;
     }
   }
 
-  for(i = rows - 1; i >= 0; i--) {
-    if(data[i].id <= high) { 
-      high_index = i; 
+  // find the index of the last element with an id <= high
+  for(high_index = rows - 1; high_index >= 0; high_index--) {
+    if(data[high_index].id <= high) { 
       break;
     }
   }
 
+  // assuming low <= high
+  // if high  < the smallest id 
+  // or low > the largest id
+  // or there are no ids where low <= id <= high
+  // then low_index will be high_index + 1 -- they'll pass each other by exactly 1 index
   int range_size = (high_index - low_index) + 1;
   if(range_size > ID_RANGE_MAX_RESULTS) {
     printf("Found more than %d items in the search range (%d - %d)\n", ID_RANGE_MAX_RESULTS, low, high);
