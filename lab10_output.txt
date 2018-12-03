@@ -1,0 +1,201 @@
+Script started on Mon 03 Dec 2018 10:44:33 AM EST
+ktua20258@astro:~/lab10\[Mon Dec 03 10:44:33 [0;31mtua20258@astro[0m:~/lab10 ] $cc lab10.c 
+ktua20258@astro:~/lab10\[Mon Dec 03 10:44:44 [0;31mtua20258@astro[0m:~/lab10 ] $./a.out 
+DATA MINING MERGED OMR FORM AND STUDENT DATA PROGRAM WRITTEN IN C
+
+Program written by Trong Garson.
+Program compiled on Dec  3 2018 at 10:44:44
+
+read 233 rows of bubble response data
+Bubble Sheet Results Data Mining Menu
+1. Display specific id
+2. Display specific name
+3. Display range of ids
+4. Display last name
+5. End the program
+
+Enter Choice [1-5]: 1
+
+Display specific id
+Enter id: 162
+ID: 00162  Name: Mareli Woods
+	bbdcbdcccdc
+
+
+Bubble Sheet Results Data Mining Menu
+1. Display specific id
+2. Display specific name
+3. Display range of ids
+4. Display last name
+5. End the program
+
+Enter Choice [1-5]: 1
+
+Display specific id
+Enter id: 00162
+ID: 00162  Name: Mareli Woods
+	bbdcbdcccdc
+
+
+Bubble Sheet Results Data Mining Menu
+1. Display specific id
+2. Display specific name
+3. Display range of ids
+4. Display last name
+5. End the program
+
+Enter Choice [1-5]: 1
+
+Display specific id
+Enter id: 99
+No entry found for id 99
+
+
+Bubble Sheet Results Data Mining Menu
+1. Display specific id
+2. Display specific name
+3. Display range of ids
+4. Display last name
+5. End the program
+
+Enter Choice [1-5]: 1
+
+Display specific id
+Enter id: 67261
+ID: 67261  Name: Savannah Fuller
+	bbababdadba
+
+
+Bubble Sheet Results Data Mining Menu
+1. Display specific id
+2. Display specific name
+3. Display range of ids
+4. Display last name
+5. End the program
+
+Enter Choice [1-5]: 2
+
+Display specific name
+Enter name: van
+ID: 13423  Name: Terrance Vance
+	cdbaddcacbd
+ID: 18589  Name: Jovani Tran
+	caaacaccaaa
+ID: 67261  Name: Savannah Fuller
+	bbababdadba
+
+
+Bubble Sheet Results Data Mining Menu
+1. Display specific id
+2. Display specific name
+3. Display range of ids
+4. Display last name
+5. End the program
+
+Enter Choice [1-5]: 3
+
+Display range of ids
+Enter first id: 0
+Enter second id (must be within 3000 of first id): 0
+No results found in the range (0-0)
+
+
+Bubble Sheet Results Data Mining Menu
+1. Display specific id
+2. Display specific name
+3. Display range of ids
+4. Display last name
+5. End the program
+
+Enter Choice [1-5]: 3
+
+Display range of ids
+Enter first id: 0
+Enter second id (must be within 3000 of first id): 3000
+ID: 00162  Name: Mareli Woods
+	bbdcbdcccdc
+ID: 01807  Name: Chanel Browning
+	aabcdcaccad
+ID: 01889  Name: Addison Rowe
+	cacabccbdad
+ID: 02648  Name: Kaylyn Montes
+	aadbbabdabd
+ID: 02658  Name: Maximillian Wall
+	dccaacdcbdd
+
+
+Bubble Sheet Results Data Mining Menu
+1. Display specific id
+2. Display specific name
+3. Display range of ids
+4. Display last name
+5. End the program
+
+Enter Choice [1-5]: 3
+
+Display range of ids
+Enter first id: 10000
+Enter second id (must be within 3000 of first id): 13000
+Found more than 5 items in the search range (10000 - 13000)
+ID: 10090  Name: Deegan Galloway
+	bdcbabdabdc
+ID: 10142  Name: Braden Combs
+	cddbaddbdca
+ID: 10508  Name: Allie Byrd
+	adcddbbadbb
+ID: 10582  Name: Jeffrey Sellers
+	acabdacbdbc
+ID: 10888  Name: Yuliana Parker
+	acaaddaacab
+
+
+Bubble Sheet Results Data Mining Menu
+1. Display specific id
+2. Display specific name
+3. Display range of ids
+4. Display last name
+5. End the program
+
+Enter Choice [1-5]: 4
+
+Display last name
+Enter last name: mc
+ID: 14453  Name: Dahlia Mcmahon
+	adbbcdbccac
+ID: 18126  Name: Paula Mcbride
+	abaccacadbc
+ID: 28864  Name: Julie Mcdowell
+	ccadadbadbd
+ID: 40902  Name: Curtis Mclaughlin
+	ccbbbabacba
+ID: 57216  Name: Campbell Mclean
+	bcdbbcaccaa
+ID: 59339  Name: Elisa Mccann
+	ddbccdddadc
+ID: 61647  Name: Erica Mccormick
+	cbdabdaaacb
+ID: 65713  Name: Lucia Mcknight
+	acadbbccadc
+ID: 74196  Name: Ali Mcgrath
+	abcdddcaddb
+ID: 77618  Name: Averi Mckinney
+	bcabccdccca
+ID: 86322  Name: Lilia McFarland
+	cbbbcacaacb
+
+Bubble Sheet Results Data Mining Menu
+1. Display specific id
+2. Display specific name
+3. Display range of ids
+4. Display last name
+5. End the program
+
+Enter Choice [1-5]: 5
+
+
+Goodbye
+
+ktua20258@astro:~/lab10\[Mon Dec 03 10:46:00 [0;31mtua20258@astro[0m:~/lab10 ] $exit
+exit
+
+Script done on Mon 03 Dec 2018 10:46:01 AM EST
